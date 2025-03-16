@@ -32,17 +32,6 @@ Using UV (optional):
 uv pip install -r requirements.txt
 ```
 
-## Usage
-
-1. Start the Streamlit application:
-```
-streamlit run unit_convertor.py
-```
-
-2. The app will open in your default web browser
-3. Select a category, input unit, output unit, and enter a value
-4. Click "Convert" to see the result
-
 ## License
 
-This project is open source and available under the MIT License. 
+This project is open source and available under the MIT License.
