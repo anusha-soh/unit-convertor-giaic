@@ -105,7 +105,7 @@ def main():
     with col1:
         st.subheader("From")
         from_unit = st.selectbox("Convert from", list(units.keys()), key="from")
-        input_value = st.number_input("Enter value", value=1.0, step=0.1, format="%.6f")
+        input_value = st.number_input("Enter value", value=1.0, step=0.1, format="%.3f")
     
     with col2:
         st.subheader("To")
